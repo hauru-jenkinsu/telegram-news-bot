@@ -179,4 +179,4 @@ def run_scheduler():
 if __name__ == "__main__":
     import asyncio
     asyncio.run(main())  # Запуск один раз для теста
-    run_scheduler()  # Запуск по расписанию
+    #run_scheduler()  # Запуск по расписанию
