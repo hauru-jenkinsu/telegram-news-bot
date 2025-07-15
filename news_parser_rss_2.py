@@ -22,7 +22,7 @@ logging.getLogger().addHandler(logging.StreamHandler())
 TOKEN = "7696731801:AAGXoG8qkCmGceKg_koT9GsMdHdjmrpO9MM"
 CHANNELS = [
     "@SoldatskyRubezh", "@ArmeyskyPuls", "@StalIDistsiplina",
-    "@BratstvoPoOruzhiyu", "@PutKPogonam", "@ZvezdaUcheniy"
+    "@BratstvoPoOruzhiyu", "@PutKPogonam", "@ZvezdaUcheniy", "@informanto_channel"
 ]
 ADMIN_CHAT_ID = "5718294023"  # Укажите ID администратора (например, через @userinfobot)
 RSS_FEEDS = [
