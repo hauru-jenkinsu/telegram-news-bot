@@ -9,6 +9,10 @@ import schedule
 import asyncio
 from urllib.parse import urljoin
 
+# Проверка переменной окружения
+if os.getenv("PAUSE_MODE") == "true":
+    exit()
+	
 # Настройка логирования
 log_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'parser.log')
 logging.basicConfig(
